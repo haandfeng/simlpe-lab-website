@@ -1,0 +1,16 @@
+.year {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border: 2px solid #8B4513; /* 修改这一行，设置深棕色的细线边框 */
+    border-radius: 8px;
+}
+
+.year h1 {
+    color: #333;
+}
+
+.year p {
+    line-height: 1.6;
+}

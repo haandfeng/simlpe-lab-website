@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.team-section {
+    margin: 20px;
+}
+
+.team-section h2 {
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.team-members-container {
+    display: flex; /* 启用flexbox布局 */
+    flex-wrap: wrap; /* 如果不够放则换行 */
+    justify-content: flex-start; /* 从行的起始位置对齐 */
+    justify-content: flex-start; /* 从行的起始位置对齐 */
+}
+.team-member {
+    display: flex;
+    flex-direction: column; /* 设置为垂直布局 */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.team-member img {
+    margin-right: 15px;
+    width: 100px; /* 或者您希望的尺寸 */
+    height: auto; /* 保持宽度和高度一致以保持图片圆形 */
+}
+.member-info {
+    text-align: center; /* 文字居中对齐 */
+}
+.member-info h3 {
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: #333;
+}
+
+.member-info p {
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: #666;
+}
+
+.circle-photo {
+    /* 如果需要，可以针对具体类别的成员进行特殊的样式调整 */
+}
